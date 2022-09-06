@@ -61,5 +61,8 @@ The mode can be ``` rbg/ir/both```, however only models listed below support ```
 ```
 name with one_stream is early-fusion mentioned in the paper while name with two_stream is the late fusion, if applicable. 
 
+Some performance is shown in the below Table,
+![iamge](https://github.com/XiwenChen-Clemson/Flame_2_dataset/blob/main/per.PNG)
+
 
 
