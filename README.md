@@ -24,6 +24,7 @@ Additional codes for image-process-based fire localization please view: https://
 - first modify the path of the RGB folder and Thermal folder in ``` rename.py```, and run it. This makes the paired images have the same name.
 - Then you can run the ```train.py``` to train the model. You can run it by command. 
 - ## Some examples are shown in ```eval.ipynb```
+- You can also customize your model in ```model.py``` and then import it in ```train.py```
 - Some args are shown below, 
 ```
   ...
