@@ -2,7 +2,7 @@
 The dataset provides rich RGB-thermal image pairs for wildfire flame.
 
 
-
+![iamge](https://github.com/XiwenChen-Clemson/Flame_2_dataset/blob/main/ex1.PNG)
 
 
 
