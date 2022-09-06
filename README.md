@@ -18,7 +18,7 @@ The codes are for the series CNN baselines tested in our wildfile flame detectio
 } 
 ```
 
-Additional codes for image-process-based fire localization please view: https://github.com/bot0231019/Wildfire-Flame
+## Additional codes for image-process-based fire localization please view: https://github.com/bot0231019/Wildfire-Flame
 
 ## How to Run
 - first modify the path of the RGB folder and Thermal folder in ``` rename.py```, and run it. This makes the paired images have the same name.
