@@ -1,4 +1,11 @@
 # Flame_2_dataset
+The dataset provides rich RGB-thermal image pairs for wildfire flame.
+
+
+
+
+
+
 The codes are for the series CNN baselines tested in our wildfile flame detection dataset.
 ```
 @data{FLAME2Dataset,
@@ -10,6 +17,8 @@ The codes are for the series CNN baselines tested in our wildfile flame detectio
     year = {2022} 
 } 
 ```
+
+Additional codes for image-process-based fire localization please view: https://github.com/bot0231019/Wildfire-Flame
 
 ## How to Run
 - first modify the path of the RGB folder and Thermal folder in ``` rename.py```, and run it. This makes the paired images have the same name.
