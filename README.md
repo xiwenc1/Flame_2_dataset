@@ -8,6 +8,14 @@ The dataset provides rich RGB-thermal image pairs for wildfire flame.
 
 The codes are for the series CNN baselines tested in our wildfile flame detection dataset.
 ```
+
+@ARTICLE{9953997, 
+author={Chen, Xiwen and Hopkins, Bryce and Wang, Hao and O’Neill, Leo and Afghah, Fatemeh and Razi, Abolfazl and Fulé, Peter and Coen, Janice and Rowell, Eric and Watts, Adam}, 
+journal={IEEE Access},  
+title={Wildland Fire Detection and Monitoring using a Drone-collected RGB/IR Image Dataset},  
+year={2022},  volume={},  number={},  pages={1-1},  
+doi={10.1109/ACCESS.2022.3222805}}
+
 @data{FLAME2Dataset,
     doi = {10.21227/swyw-6j78},
     url = {https://dx.doi.org/10.21227/swyw-6j78},
