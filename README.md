@@ -1,6 +1,7 @@
 # Flame_2_dataset
 The dataset provides rich RGB-thermal image pairs for wildfire flame.
 
+## github address: https://github.com/XiwenChen-Clemson/Flame_2_dataset
 
 ![iamge](https://github.com/XiwenChen-Clemson/Flame_2_dataset/blob/main/ex1.PNG)
 
@@ -29,10 +30,12 @@ doi={10.1109/ACCESS.2022.3222805}}
 ## Additional codes for image-process-based fire localization please view: https://github.com/bot0231019/Wildfire-Flame
 
 ## How to Run
-- first modify the path of the RGB folder and Thermal folder in ``` rename.py```, and run it. This makes the paired images have the same name.
+- Download dataset (254p Frame Pairs.zip (8.30 GB)) from https://ieee-dataport.org/open-access/flame-2-fire-detection-and-modeling-aerial-multi-spectral-image-dataset
+- Place the data folders (```254p Thermal Images``` and ```254p RGB Images```) at the same work path with your code.
+- run ``` rename.py```. This makes the paired images have the same name.
 - Then you can run the ```train.py``` to train the model. You can run it by command. 
 - ## Some examples are shown in ```eval.ipynb```
-- You can also customize your model in ```model.py``` and then import it in ```train.py```
+- You can also customize your model in ```models.py``` and then import it to ```train.py```
 - Some args are shown below, 
 ```
   ...
@@ -58,7 +61,7 @@ doi={10.1109/ACCESS.2022.3222805}}
 
 ```
 ## We want to mention that the choise of models can be
-
+Please view ```models.py``` to view the detail
 ``` 
 Logistic_two_stream
 Flame_one_stream
